@@ -70,6 +70,7 @@ ul{
 margin-left: 50px; 
 }
 
+
 .site-nav .link {
   display: block;
   padding-top: 32px;
@@ -120,6 +121,24 @@ margin-left: 50px;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.auth-nav .icon{
+  content: "";
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+  fill: var(--primary-text-color);
+}
+.icon :hover
+ {
+  fill: var(--focus-text-color);
+}
+
+
 
 /* Main section */
 h1,h2,h3, p {
@@ -134,8 +153,14 @@ h1,h2,h3, p {
   padding: 200px 0;
   margin-left: auto;
   margin-right: auto;
+  background-image: linear-gradient( 
+    to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)
+  ),
+    url("../images/icons.svg/Img\ \(2\).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-
 .section{
   padding: 94px 0;
 
